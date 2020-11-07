@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Javanese Text','Mongolian Baiti','Palatino Linotype';
+background-color:;
+color:#626063;
+}
+
+
+/*navi*/
+.clearlist{
+	content:"";
+	display: block;
+	clear: both;
+  }
+
+
+
+/*  header */
+header{
+	width:100%;
+  }
+
+.logo{
+	margin-right: 0;
+	padding:0 0;
+	width:100px;
+}
+
+.navi{
+	max-width:1250px;
+	margin: 0 auto;
+	height:60px;
+	background-color: #ffe9a9;
+	display: flex;
+	justify-content: flex-end;
+
+	align-items:center;
+}
+  /*max-width:1140px;*/
+
+.search{
+	line-height: 40px;
+	background-color:#ffe9a9;
+	list-style: none;
+    display: inline-block;
+
+    width:180px;
+    text-align: center;
+	position: relative;
+
+}
+
+.child{
+	line-height: 20px;
+	width:260px;
+	flex:auto;
+    background-color:#ffe9a9;
+	list-style: none;
+    display: inline-block;
+
+    width:170px;
+    text-align: center;
+	position: relative;
+	padding:0 20px;
+	z-index: 10;
+
+}
+
+.child li{
+	display: block;
+	list-style: none;
+	padding:10px 0;
+	z-index: 10;
+
+}
+
+.child :hover{
+	display: block;
+	list-style: none;
+	font-weight: bold;
+}
+
+.child a{
+	text-decoration: none;
+	display:inlin-block;
+	color:#626063;
+
+  }
+
+.child ul{
+	display:none;
+   position: absolute;
+}
+
+.child:hover ul{
+	background-color: #ffe9a9;
+	text-align: center;
+	width:205px;
+	display:block;
+	font-weight: bold;
+}
+
+  .global-navi a:hover{
+	cursor: pointer;
+  }
+
+span{
+	position: relative;
+}
+
+/*font Awesome*/
+.far {
+	margin-right: 5px;
+	position: absolute;
+left:3px;
+}
+
+.fas {
+	margin-right: 5px;
+	position: absolute;
+left:3px;
+}
+
+
+/*検索窓*/
+.sample2Text {
+
+	width            : 150px;            /* inputの幅           */
+	background-image : url(./img/mg.png);
+    font-weight: 900;/* 背景画像：虫眼鏡(*1)*/
+	background-repeat  : no-repeat;        /* 背景は繰り返さない  */
+	background-position: 8px center;       /* 背景の位置          */
+	background-size    : auto 60%;         /* 背景のサイズ        */
+	background-color   : #fff;             /* 背景色              */
+	margin             : 0 auto;           /* サンプルは中央寄せ  */
+	padding-left       : 30px;             /* 虫眼鏡分の左余白    */
+	border             : 2px solid #666;   /* 枠線　幅,実践,色    */
+	border-radius      : 50px;              /* 角丸                */
+	color              : #555;             /* 文字色              */
+	font-size          : 14px;             /* フォントサイズ      */
+	letter-spacing     : 0.1em;            /* 文字間隔            */
+	font-weight        : normal;             /* 太字                */
+	outline            : 0;                 /* 入力薄枠を非表示    */
+	padding:6px 35px;
+
+}
+
+   /* === テキスト入力欄にフォーカスか来たとき  ================== */
+  .sample2Text:focus {
+	background-color     : white;        /* フォーカス時背景色  */
+	border-color: #f2a88a;
+  }
+
+   /* === IEの入力エリア右側×消し ============================== */
+  .sample2Text::-ms-clear {
+	display        : none;                 /* ×を消す            */
+  }

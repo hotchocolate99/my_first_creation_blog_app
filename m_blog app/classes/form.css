@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6,  div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Javanese Text','Mongolian Baiti','Palatino Linotype';
+background-color:;
+color:#626063;
+}
+
+
+/* -------------------- container -------------------- */
+#container {
+	margin-top:300px;
+}
+
+.main{
+width:1000px;
+margin:50px auto;
+border-radius: 25px;
+background-color: #f8f4e6;
+position: relative;
+}
+
+.input{
+	width:60%
+	background-color: #f8f4e6;
+	position: relative;
+}
+
+
+.formspace{
+	padding:15px 30px;
+}
+
+.form_title{
+	padding:10px 30px;
+
+}
+
+
+/* -------------------- left(main) -------------------- */
+
+.form_item{
+	margin:10px 0 3px 0;
+}
+
+/*↓どこ？？　これ触るとなぜかボタンに影響する。*/
+	.form_text {
+		width: 30%;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		padding: 6px 12px;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: #555;
+	  }
+
+
+	   .btn{
+		margin-top: 20px;
+		margin-bottom: 20px;;
+		width: 120px;
+
+		border-radius: 50px;
+		padding: 8px;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: #49484d;
+		background-color:#bbe2f1;
+
+	  }
+
+
+
+
+	  .delete{
+		margin-top: 20px;
+		margin-bottom: 20px;;
+		width: 120px;
+		border-radius: 50px;
+		padding: 8px;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: #49484d;
+		background-color:#f2bdcf; 
+	  }
+
+	  .delete:hover{
+		cursor:pointer;
+	  }
+
+	  .btn:hover{
+		cursor:pointer;
+	  }
+
+	  
+	  textarea {
+		width: 90%;
+		height: 100px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		padding: 6px 12px;
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		font-size: 14px;
+		line-height: 1.428571429;
+		color: #555;
+	  }
+
+	  .to_home a{
+		text-decoration: none;
+		display: block;
+		color:#626063;
+		position: absolute;
+		bottom:10px;
+		right:50px;
+	}
+
+	.to_home a:hover{
+		font-size: 15px;
+		cursor: pointer;
+		font-weight: bold;
+	}
