@@ -112,21 +112,17 @@ header{
 	cursor: pointer;
   }
 
-span{
-	position: relative;
-}
+
 
 /*font Awesome*/
 .far {
 	margin-right: 5px;
-	position: absolute;
-left:3px;
+	
 }
 
 .fas {
 	margin-right: 5px;
-	position: absolute;
-left:3px;
+	
 }
 
 
